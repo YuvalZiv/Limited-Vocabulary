@@ -1,0 +1,31 @@
+﻿Build started 14/08/17 05:24:51.
+     1>Project "C:\Users\Yuval\Desktop\Limited Vocabulary\Limited Vocabulary\Limited Vocabulary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Functions.c
+         Functions.c
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(20): warning C4013: 'malloc' undefined; assuming extern returning int
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(20): warning C4047: '=' : 'list_t *' differs in levels of indirection from 'int'
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(23): warning C4013: 'exit' undefined; assuming extern returning int
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(57): warning C4047: '=' : 'node_t *' differs in levels of indirection from 'int'
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(104): warning C4013: 'free' undefined; assuming extern returning int
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(118): warning C4715: 'get_length' : not all control paths return a value
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(157): warning C4715: 'get_next' : not all control paths return a value
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(144): warning C4715: 'get_last' : not all control paths return a value
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(170): warning C4715: 'get_previous' : not all control paths return a value
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(183): warning C4715: 'get_value' : not all control paths return a value
+     1>c:\users\yuval\desktop\limited vocabulary\limited vocabulary\functions.c(131): warning C4715: 'get_first' : not all control paths return a value
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuval\Desktop\Limited Vocabulary\Debug\Limited Vocabulary.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yuval\Desktop\Limited Vocabulary\Debug\Limited Vocabulary.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yuval\Desktop\Limited Vocabulary\Debug\Limited Vocabulary.lib" /MACHINE:X86 Debug\Functions.obj
+         Debug\Item.obj
+         Debug\List.obj
+         Debug\Main.obj
+         Debug\Node.obj
+         Debug\stdafx.obj
+         Limited Vocabulary.vcxproj -> C:\Users\Yuval\Desktop\Limited Vocabulary\Debug\Limited Vocabulary.exe
+     1>Done Building Project "C:\Users\Yuval\Desktop\Limited Vocabulary\Limited Vocabulary\Limited Vocabulary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.59
